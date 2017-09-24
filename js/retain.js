@@ -19,7 +19,7 @@ $(function() {
 
     formatDate: function(timestamp) {
       var date = new Date(timestamp);
-      return date.toString();
+      return date.toTimeString();
     },
 
     clear: function() {
